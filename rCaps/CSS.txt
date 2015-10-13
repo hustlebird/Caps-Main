@@ -1,0 +1,694 @@
+/*Hide some stuff*/
+.sidebox.create {
+display:none
+}
+
+/* new upvote css */
+/* new upvote css */
+.content .midcol,.content .commentarea .comment {overflow:visible !important;}
+.arrow.upmod:after {
+    content: "";
+    font-size: 16px;
+    margin-left: 15px;
+    left: -999px;
+    position: relative;
+    display: inline-block;
+    color: #ff0000;
+    bottom: 18px;
+    opacity: 0.0;
+    -webkit-animation-name: upvote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-name: upvote;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-name: upvote;
+    -ms-animation-duration: 1.5s;
+    -ms-animation-timing-function: ease-out;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-play-state: running;
+}
+.listing-page .arrow.upmod:after {
+    content: "Let's go Caps!";
+    width: 300px;
+}
+.arrow.upmod:after,
+.child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "C!";
+}
+.child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "A!";
+}
+.child .child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "P!";
+}
+.child .child .child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "S!";
+}
+.child .child .child .child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "CAPS!";
+}
+.child .child .child .child .child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "CAPS!";
+}
+.child .child .child .child .child .child .arrow.upmod:after,
+.child .child .child .child .child .child .child .child .child .child .child .child .child .arrow.upmod:after {
+    content: "CAPS!";
+}
+
+@-webkit-keyframes upvote {
+    0% {color: #ff0000; left: 0px;}
+    8% {bottom: 23px; opacity: 1.0}
+    15% {bottom: 28px;}
+    30% {color: #ff4c4c}
+    50% {color: #ff7f7f; bottom: 33px;}
+    60% {color: #ffe5e5}
+    100% {bottom: 38px; opacity: 0.0; left: 0px;}
+}
+@-moz-keyframes upvote {
+    0% {color: #ff0000; left: 0px;}
+    8% {bottom: 23px; opacity: 1.0}
+    15% {bottom: 28px;}
+    30% {color: #ff4c4c}
+    50% {color: #ff7f7f; bottom: 33px;}
+    60% {color: #ffe5e5}
+    100% {bottom: 38px; opacity: 0.0; left: 0px;}
+}
+@-ms-keyframes upvote {
+    0% {color: #ff0000; left: 0px;}
+    8% {bottom: 23px; opacity: 1.0}
+    15% {bottom: 28px;}
+    30% {color: #ff4c4c}
+    50% {color: #ff7f7f; bottom: 33px;}
+    60% {color: #ffe5e5}
+    100% {bottom: 38px; opacity: 0.0; left: 0px;}
+} 
+/******************/
+span.subscribers .word, p.users-online .word { 
+    display: none;
+}
+
+span.subscribers .number:after { 
+    content: " Caps Fans";
+}
+
+p.users-online .number:after {
+    content: " fans are currently rocking the red";
+} 
+
+#header {
+background-color: #ff1a00;
+background-image: -webkit-linear-gradient(top,#ff1a00,#1e0700);
+background-image: -moz-linear-gradient(top,#ff1a00,#1e0700);
+background-image: linear-gradient(top,#ff1a00,#1e0700);
+border-bottom: 1px solid #052f64;
+background: url(%%header3%%);
+background-color: #000;
+border-bottom: 0px solid;
+height: 180px;
+}
+
+#header-img.default-header{
+display: none;
+}
+
+#header-bottom-right {
+background-color: #052f64;
+-webkit-border-top-left-radius: 7px 7px;
+bottom: 0px;
+color: #FFFFFF !important;
+padding: 4px;
+position: absolute;
+right: 0px;
+}
+
+#header-bottom-left {
+    position: absolute;
+    bottom: 0;
+} 
+
+.tabmenu li a {
+background-color: #052f64 !important;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+color: #FFFFFF !important;
+}
+
+.tabmenu li.selected a {
+border-color: #FFFFFF #FFFFFF #00214D !important;
+border-style: solid;
+border-width: 1px;
+}
+
+.pagename a {
+color: #FFFFFF !important;
+}
+
+.user a {
+color: #FFFFFF !important;
+}
+
+.flat-list.hover a.pref-lang {
+color: #FFFFFF !important;
+}
+
+.logout.hover a {
+color: #FFFFFF !important;
+}
+
+/* game thread styling */
+a[href*="/game_thread"].title:link {
+    color: #ff4500;
+    font-weight:bold;
+    }
+a[href*="/game_thread"].title:visited {
+    color: #ff4500 !important;
+    font-weight:bold !important;
+    }
+a[href*="/game_thread"].title:before {
+    background-image:url(%%gamethreadsticks%%);
+    width:20px;
+    height:20px;
+    content:"";
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    }
+
+
+/* playoff game thread styling */
+a[href*="/playoff_game_thread"].title:link {
+    color: #00A100;
+	font-weight:bold;
+    }
+a[href*="/playoff_game_thread"].title:visited {
+    color: #00A100 !important;
+	font-weight:bold !important;
+    }
+a[href*="/playoff_game_thread"].title:before {
+    background-image:url(%%stanley-cup-game-thread%%);
+    width:13px;
+    height:30px;
+    content:"";
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    }
+
+/* Lucky Guess styling */
+a[href*="/lucky_guess"].title:link {
+    font-weight:bold;
+    }
+a[href*="/lucky_guess"].title:visited {
+    font-weight:bold !important;
+    }
+
+
+/* Side Picture */
+.side {
+padding: 320px 0px 0px 0px;
+background-image: url(%%oviniskanen%%);
+background-repeat: no-repeat;
+width: 340px !important;
+}
+
+/*Upvote Arrow Mod*/
+.midcol[style] {width: 24px !important}
+.comment .midcol {width: 24px}
+.gadget .midcol {width:24px; margin: 0}
+.arrow{width:24px;height:17px;background-repeat:no-repeat;}
+.arrow.upmod { background-image: url(%%arrowsheet%%); background-position: 0 -189px; width: 17px; height: 13px;}
+.arrow.downmod { background-image: url(%%arrowsheet%%); background-position: 0 -63px; width: 17px; height: 13px; }
+.arrow.up { background-image: url(%%arrowsheet%%); background-position: 0 -126px; width: 17px; height: 13px; }
+.arrow.down { background-image: url(%%arrowsheet%%); background-position: 0 0; width: 17px; height: 13px; }
+/*Arrow Mod for playoffs*/
+/*.arrow.up { background-image: url(%%playoff-downvote-rags%%); background-position: 0 -65px; width: 20px; height: 15px; }*/
+/*.arrow.upmod { background-image: url(%%playoff-downvote-rags%%); background-position: 0 0; width: 20px; height: 15px;} */
+/*.arrow.down { background-image: url(%%playoff-downvote-rags%%); background-position: 0 -197px; width: 18px; height: 17px; }*/
+/*.arrow.downmod { background-image: url(%%playoff-downvote-rags%%); background-position: 0 -130px; width: 18px; height: 17px; }*/
+
+/*User Flair Code*/
+/*Keep User Flair only in Comments*/
+div.content div#siteTable .link span.flair {display: none}
+
+.flairselector .customizer {
+display: none !important;
+}
+
+.flair {
+border: none !important;
+top:20px;
+padding:0px;
+background: url(%%spritesheet2015%%);
+display:inline-block;
+}
+ 
+.flair-Williams {
+    width: 21px;
+    height: 18px;
+    background-position: -5px -5px;
+}
+
+
+.flair-Backstrom {
+    width: 21px;
+    height: 18px;
+    background-position: -36px -5px;
+}
+
+
+.flair-Laich {
+    width: 20px;
+    height: 18px;
+    background-position: -67px -5px;
+}
+
+
+.flair-Chimera {
+    width: 21px;
+    height: 18px;
+    background-position: -97px -5px;
+}
+
+
+.flair-Alzner {
+    width: 21px;
+    height: 18px;
+    background-position: -128px -5px;
+}
+
+
+.flair-Niskanen {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -33px;
+}
+
+
+.flair-Grubauer {
+    width: 21px;
+    height: 18px;
+    background-position: -35px -33px;
+}
+
+
+.flair-Peters {
+    width: 20px;
+    height: 18px;
+    background-position: -66px -33px;
+}
+
+
+.flair-Wilson {
+    width: 21px;
+    height: 18px;
+    background-position: -127px -33px;
+}
+
+
+.flair-Orpik {
+    width: 21px;
+    height: 18px;
+    background-position: -5px -61px;
+}
+
+
+.flair-Latta {
+    width: 21px;
+    height: 18px;
+    background-position: -36px -61px;
+}
+
+
+.flair-Galiev {
+    width: 21px;
+    height: 18px;
+    background-position: -67px -61px;
+}
+
+
+.flair-Chorney {
+    width: 21px;
+    height: 18px;
+    background-position: -98px -61px;
+}
+
+
+.flair-Collins {
+    width: 21px;
+    height: 18px;
+    background-position: -129px -61px;
+}
+
+
+.flair-Burakovski {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -89px;
+}
+
+
+.flair-Brown {
+    width: 20px;
+    height: 18px;
+    background-position: -35px -89px;
+}
+
+
+.flair-Holtby {
+    width: 21px;
+    height: 18px;
+    background-position: -65px -89px;
+}
+
+
+.flair-Carlson {
+    width: 21px;
+    height: 18px;
+    background-position: -96px -89px;
+}
+
+
+.flair-Oshie {
+    width: 20px;
+    height: 18px;
+    background-position: -127px -89px;
+}
+
+
+.flair-Beagle {
+    width: 21px;
+    height: 18px;
+    background-position: -5px -117px;
+}
+
+
+.flair-OBrien {
+    width: 20px;
+    height: 18px;
+    background-position: -36px -117px;
+}
+
+
+.flair-Schmidt {
+    width: 21px;
+    height: 18px;
+    background-position: -66px -117px;
+}
+
+
+.flair-Ovechkin {
+    width: 21px;
+    height: 18px;
+    background-position: -97px -117px;
+}
+
+
+.flair-Johansson {
+    width: 21px;
+    height: 18px;
+    background-position: -128px -117px;
+}
+
+
+.flair-Kuznetsov {
+    width: 21px;
+    height: 18px;
+    background-position: -5px -145px;
+}
+
+
+.flair-Orlov {
+    width: 21px;
+    height: 18px;
+    background-position: -36px -145px;
+}
+
+
+.flair-Locker {
+    width: 21px;
+    height: 18px;
+    background-position: -67px -145px;
+}
+
+
+.flair-JoeB {
+    width: 21px;
+    height: 18px;
+    background-position: -98px -145px;
+}
+
+
+.flair-announcer-mic {
+    width: 21px;
+    height: 18px;
+    background-position: -129px -145px;
+}
+
+
+.flair-announcer-suit {
+    width: 21px;
+    height: 18px;
+    background-position: -159px -5px;
+}
+
+
+.flair-caps-logo1 {
+    width: 21px;
+    height: 18px;
+    background-position: -158px -33px;
+}
+
+
+.flair-caps-logo2 {
+    width: 21px;
+    height: 18px;
+    background-position: -160px -61px;
+}
+
+
+.flair-Gartner {
+    width: 21px;
+    height: 18px;
+    background-position: -157px -89px;
+}
+
+
+.flair-Hunter {
+    width: 21px;
+    height: 18px;
+    background-position: -159px -117px;
+}
+
+
+.flair-Langway {
+    width: 21px;
+    height: 18px;
+    background-position: -160px -145px;
+}
+
+
+.flair-Labre {
+    width: 21px;
+    height: 18px;
+    background-position: -5px -173px;
+}
+
+
+
+/* Modified Headers created by MrRandomCrap of the Habs subreddit */
+/* Modified Headers - H1 */
+.expando form  .usertext-body .md h1 {
+  font-size: 10px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+   }
+/* Modified Headers - H2 */
+.expando form  .usertext-body .md h2 {
+  font-size: 12px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+    }
+/* Modified Headers - H3 */
+.expando form  .usertext-body .md h3 {
+  font-size: 16px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+}
+/* Modified Headers - H4 */
+.expando form .usertext-body .md h4 {
+  font-size: 20px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+}
+/* Modified Headers - H5 */
+.expando form .usertext-body .md h5 {
+  font-size: 25px;
+  color: #302217;
+  text-align: center;
+  padding-top: 8px
+}
+/* Modified Headers - H6 */
+.expando form .usertext-body .md h6 {
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #302217;
+  text-align: center;
+  padding-top: 4px
+}
+.md table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-left: 2px solid #302217;
+  border-right: 2px solid #302217;
+  border-top: 2px solid #302217;
+  border-bottom: 2px solid #302217;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.md table th {
+  background-color: #323232;
+  border-top: 1px solid #323232;
+  border-left: 1px solid #323232;
+  border-bottom: 2px solid #323232;
+  border-right: 1px solid #323232;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: bold;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle !important
+}
+.md table td {
+  border-top: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  color: #000;
+  height: 23px;
+  vertical-align: middle !important
+}
+
+.md tr:nth-of-type(odd) {
+background:#FFFFFF;
+color:#363636;
+}
+
+.md tr:nth-of-type(even) {
+background:#FFE9E8;
+color:#363636;
+}
+
+/* toggle next to userbar */
+div#userbarToggle, div#header-bottom-right.res-navTop {
+   background-color: #052f64 !important;
+   color: #FFFFFF !important;
+   border: 2px solid #ffffff;
+   border-right: 1px solid #ffffff; border-top:none;
+   border-radius: 0px;
+}
+
+
+
+/* titles on sidebar */
+.titlebox .usertext .md { 
+margin: 10px; 
+padding: 0; 
+overflow: visible 
+}
+
+.titlebox .usertext .md > h1 { 
+border: 0; 
+margin: 5px; 
+padding: 0; 
+background-color: #ff1a00;
+background-image: -webkit-linear-gradient(top,#ff1a00,#1e0700);
+background-image: -moz-linear-gradient(top,#ff1a00,#1e0700);
+background-image: linear-gradient(top,#ff1a00,#1e0700);
+color: #FFF;
+    font-size: 1.4em !important; 
+padding: 2px 15px;
+    padding-left: 20px; 
+padding-right: 0; 
+margin-right: 13px; 
+margin-left: -23px; 
+border-bottom: 1px solid #FF0000; 
+margin-bottom: 10px; 
+margin-top: 15px; 
+z-index: 100 
+} 
+
+.titlebox .usertext .md > h1:after { 
+display: block; 
+content: ""; 
+border-color: transparent #FF0000 transparent transparent; 
+border-style: solid; 
+border-width: 15px; 
+height: 0px; 
+width: 0px; 
+position: absolute; 
+z-index: -1; 
+margin-left: -35px; 
+margin-top: -12px 
+}
+
+
+
+/*body {
+background:url(%%bglogo%%) no-repeat;
+background-attachment:fixed;
+background-position:34% 53%;
+}*/
+
+.link{
+  border-bottom:1px solid #CDC9C9
+  border-bottom:1px solid #CDC9C9
+}
+
+/*announcement sticky*/
+div.content {
+/*This lowers the links to create space*/
+margin-top:50px;
+}
+.titlebox form {
+/*Hack to enable repositioning of child elements*/
+position: static
+}
+.side h3:nth-of-type(1) {
+/*this code positions the sticky*/
+position:absolute;
+display: block;
+top:175px;
+left:40px;
+/*this code styles the sticky*/
+background-color: #F2F2F2;
+color: #ff0000;
+text-align: left;
+margin: 15px;
+border-radius: 8px;
+width: 50%;
+padding: 7px 0px 7px 40px;
+/*this code creates the image*/
+background-image: url(%%small-announcment-logo%%);
+background-repeat: no-repeat;
+background-position:left;
+}
