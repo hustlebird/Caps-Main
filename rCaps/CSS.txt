@@ -161,7 +161,7 @@
 }
 body {
     overflow-x: hidden;
-    background-color: #eee;
+    background-color: #C8201E;
     min-width: 820px
 }
 a {
@@ -1073,7 +1073,7 @@ body:before {
     position: relative
 }
 .link {
-    margin: 0;
+    margin: 3px 0;
     padding: 0;
     background-color: #fff
 }
@@ -3690,7 +3690,7 @@ body .content .sitetable .link .title a:hover,
 
 body:before {
     height: 416px;
-    background: #DC143C url(%%headerimg%%) fixed no-repeat 33% 0
+    background: #DC143C url(%%headerimg%%) center no-repeat 33% 0
 }
 @media only screen and (min-width: 1921px) {
     body:before {
