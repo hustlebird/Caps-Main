@@ -1,0 +1,47 @@
+---
+
+    reports: 5
+    action: remove
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[GDT]"]
+ set_flair: ["GDT", ""]
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[TRADE]"]
+ set_flair: ["Trade", ""]
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[INJURY]"]
+ set_flair: ["Injury", ""]
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[TICKETS]"]
+ set_flair: ["Tickets", ""]
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[VIDEO]"]
+ set_flair: ["Video", ""]
+
+---
+
+# Add tag to text posts
+ type: text submission
+ title (includes): ["[PHOTO]"]
+ set_flair: ["Photo", ""]
+

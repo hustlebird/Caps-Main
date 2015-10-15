@@ -1,0 +1,13 @@
+###### If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator&subject=caps&message=schedule) to have AutoModerator re-load the schedule from here
+
+---
+    first: "October 19, 2015 5:00 AM -05"
+    repeat: 1 week
+    sticky: 1
+    title: "Weekly Ticket thread {{date %b %-d}} - {{date+6 %b %-d}}"
+    text: |
+        Post any tickets you have for sale or trade or giveaway here.
+
+        Since this thread is likely to fill up quickly, consider sorting the comments by "new" (instead of "best" or "top") to see the newest posts.
+
+---
