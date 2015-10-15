@@ -161,7 +161,7 @@
 }
 body {
     overflow-x: hidden;
-    background-color: #C8201E;
+    background-color: #C8102E;
     min-width: 820px
 }
 a {
@@ -562,7 +562,7 @@ body:not(.loggedin) #header-bottom-right {
     margin: 10px 0;
     padding: 10px 0;
     color: #5B92FA;
-    content: "CSS Theme via /r/Naut";
+    content: "";
     text-transform: none;
     font-size: 16px;
     font-family: arial, sans-serif;
@@ -3683,7 +3683,7 @@ body .content .sitetable .link .title a:hover,
 .side .titlebox .md h6 a,
 .link .entry .tagline a:hover,
 .comment .author:hover {
-    color: #ef4949;
+    color: #041E42;
 }
 /* --- End Addon --- */
 /* --- Addon: Header Background Image --- */
