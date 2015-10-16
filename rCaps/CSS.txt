@@ -954,7 +954,12 @@ div.titlebox span.number:after {
 }
 .side .titlebox .md h1 {
     line-height: 18px;
-    margin: .5em 0 0!important
+    margin: .5em 0 0!important;
+    background-color: #0f2b59;
+    color: white;
+    padding: 5px;
+    font-family: verdana,arial,sans-serif;
+    font-size: 14px;
 }
 .side .titlebox .md h2 {
     margin: 16px 0 2px
@@ -2125,7 +2130,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .tagline .submitter {
     font-weight: 700;
-    color: #4f8ef7
+    color: #C8102E!important;
 }
 .res .thing .tagline .author.submitter {
     padding: 1px 4px;
