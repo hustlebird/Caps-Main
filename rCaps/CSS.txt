@@ -3502,7 +3502,7 @@ body .content .sitetable .link .title a:hover,
 /* --- Addon: Header Background Image --- */
 
 body:before {
-    height: 281px;
+    height: 282px;
     background: #DC143C url(%%headerimg%%) center no-repeat 33% 0
 }
 @media only screen and (min-width: 1921px) {
