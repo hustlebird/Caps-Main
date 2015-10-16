@@ -2125,7 +2125,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .tagline .submitter {
     font-weight: 700;
-    color: #4f8ef7
+    color: #C8102E!important;
 }
 .res .thing .tagline .author.submitter {
     padding: 1px 4px;
