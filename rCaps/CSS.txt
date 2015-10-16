@@ -3348,262 +3348,76 @@ display: none !important;
 
 .flair {
 border: none !important;
-top:20px;
+vertical-align: middle;
+top:35px;
 padding:0px;
-background: url(%%spritesheet2015%%);
+background: url(%%spritesheet-jerseys%%);
 display:inline-block;
 }
- 
-.flair-Williams {
-    width: 21px;
-    height: 18px;
-    background-position: -5px -5px;
-}
 
+.flair-Williams { width: 42px; height: 35px; background-position: -5px -5px;}
+.flair-Backstrom { width: 42px; height: 35px; background-position: -57px -5px;}
+.flair-Niskanen { width: 42px; height: 35px; background-position: -109px -5px;}
+.flair-Laich { width: 42px; height: 35px; background-position: -161px -5px;}
+.flair-Chimera { width: 42px; height: 35px; background-position: -213px -5px;}
+.flair-Alzner { width: 42px; height: 35px; background-position: -265px -5px;}
+.flair-Grubauer { width: 42px; height: 35px; background-position: -317px -5px;}
+.flair-Chorney { width: 42px; height: 35px; background-position: -5px -50px;}
+.flair-Wilson { width: 42px; height: 35px; background-position: -57px -50px;}
+.flair-Orpik { width: 42px; height: 35px; background-position: -109px -50px;}
+.flair-Latta { width: 42px; height: 35px; background-position: -161px -50px;}
+.flair-Galiev { width: 42px; height: 35px; background-position: -213px -50px;}
+.flair-Collins { width: 42px; height: 35px; background-position: -265px -50px;}
+.flair-Burakovsky { width: 42px; height: 35px; background-position: -317px -50px;}
+.flair-Brown { width: 42px; height: 35px; background-position: -5px -95px;}
+.flair-Holtby { width: 42px; height: 35px; background-position: -57px -95px;}
+.flair-Carlson { width: 42px; height: 35px; background-position: -109px -95px;}
+.flair-Oshie { width: 42px; height: 35px; background-position: -161px -95px;}
+.flair-Ovechkin { width: 42px; height: 35px; background-position: -213px -95px;}
+.flair-Beagle { width: 42px; height: 35px; background-position: -265px -95px;}
+.flair-Schdmit { width: 42px; height: 35px; background-position: -317px -95px;}
+.flair-Orlov { width: 42px; height: 35px; background-position: -5px -140px;}
+.flair-Johansson { width: 42px; height: 35px; background-position: -57px -140px;}
+.flair-Kuznetsov { width: 42px; height: 35px; background-position: -109px -140px;}
+.flair-hedgehog { width: 24px; height: 24px; background-position: -317px -320px;}
+.flair-others-Bondra { width: 42px; height: 35px; background-position: -369px -5px;}
+.flair-others-Gartner { width: 42px; height: 35px; background-position: -369px -50px;}
+.flair-others-Hunter { width: 42px; height: 35px; background-position: -369px -95px;}
+.flair-others-Kolzig { width: 42px; height: 35px; background-position: -369px -140px;}
+.flair-others-Labre { width: 42px; height: 35px; background-position: -369px -185px;}
+.flair-others-Langway { width: 42px; height: 35px; background-position: -369px -230px;}
+.flair-front-washington-3rd { width: 42px; height: 35px; background-position: -161px -320px;}
+.flair-front-washington-home { width: 42px; height: 35px; background-position: -213px -320px;}
+.flair-front-anaheim { width: 42px; height: 35px; background-position: -161px -140px;}
+.flair-front-arizona { width: 42px; height: 35px; background-position: -213px -140px;}
+.flair-front-boston { width: 42px; height: 35px; background-position: -265px -140px;}
+.flair-front-buffalo { width: 42px; height: 35px; background-position: -317px -140px;}
+.flair-front-calgary { width: 42px; height: 35px; background-position: -5px -185px;}
+.flair-front-carolina { width: 42px; height: 35px; background-position: -57px -185px;}
+.flair-front-chicago { width: 42px; height: 35px; background-position: -109px -185px;}
+.flair-front-colorado { width: 42px; height: 35px; background-position: -161px -185px;}
+.flair-front-columbus { width: 42px; height: 35px; background-position: -213px -185px;}
+.flair-front-dallas { width: 42px; height: 35px; background-position: -265px -185px;}
+.flair-front-detroit { width: 42px; height: 35px; background-position: -317px -185px;}
+.flair-front-edmonton { width: 42px; height: 35px; background-position: -5px -230px;}
+.flair-front-florida { width: 42px; height: 35px; background-position: -57px -230px;}
+.flair-front-losangeles { width: 42px; height: 35px; background-position: -109px -230px;}
+.flair-front-minnesota { width: 42px; height: 35px; background-position: -161px -230px;}
+.flair-front-montreal { width: 42px; height: 35px; background-position: -213px -230px;}
+.flair-front-nashville { width: 42px; height: 35px; background-position: -265px -230px;}
+.flair-front-newjersey { width: 42px; height: 35px; background-position: -317px -230px;}
+.flair-front-nyi { width: 42px; height: 35px; background-position: -5px -275px;}
+.flair-front-nyr { width: 42px; height: 35px; background-position: -57px -275px;}
+.flair-front-ottawa { width: 42px; height: 35px; background-position: -109px -275px;}
+.flair-front-philadelphia { width: 42px; height: 35px; background-position: -161px -275px;}
+.flair-front-pittsburgh { width: 42px; height: 35px; background-position: -213px -275px;}
+.flair-front-sanjose { width: 42px; height: 35px; background-position: -265px -275px;}
+.flair-front-stlouis { width: 42px; height: 35px; background-position: -317px -275px;}
+.flair-front-tampabay { width: 42px; height: 35px; background-position: -5px -320px;}
+.flair-front-toronto { width: 42px; height: 35px; background-position: -57px -320px;}
+.flair-front-vancouver { width: 42px; height: 35px; background-position: -109px -320px;}
+.flair-front-winnipeg { width: 42px; height: 35px; background-position: -265px -320px;}
 
-.flair-Backstrom {
-    width: 21px;
-    height: 18px;
-    background-position: -36px -5px;
-}
-
-
-.flair-Laich {
-    width: 20px;
-    height: 18px;
-    background-position: -67px -5px;
-}
-
-
-.flair-Chimera {
-    width: 21px;
-    height: 18px;
-    background-position: -97px -5px;
-}
-
-
-.flair-Alzner {
-    width: 21px;
-    height: 18px;
-    background-position: -128px -5px;
-}
-
-
-.flair-Niskanen {
-    width: 20px;
-    height: 18px;
-    background-position: -5px -33px;
-}
-
-
-.flair-Grubauer {
-    width: 21px;
-    height: 18px;
-    background-position: -35px -33px;
-}
-
-
-.flair-Peters {
-    width: 20px;
-    height: 18px;
-    background-position: -66px -33px;
-}
-
-
-.flair-Wilson {
-    width: 21px;
-    height: 18px;
-    background-position: -127px -33px;
-}
-
-
-.flair-Orpik {
-    width: 21px;
-    height: 18px;
-    background-position: -5px -61px;
-}
-
-
-.flair-Latta {
-    width: 21px;
-    height: 18px;
-    background-position: -36px -61px;
-}
-
-
-.flair-Galiev {
-    width: 21px;
-    height: 18px;
-    background-position: -67px -61px;
-}
-
-
-.flair-Chorney {
-    width: 21px;
-    height: 18px;
-    background-position: -98px -61px;
-}
-
-
-.flair-Collins {
-    width: 21px;
-    height: 18px;
-    background-position: -129px -61px;
-}
-
-
-.flair-Burakovski {
-    width: 20px;
-    height: 18px;
-    background-position: -5px -89px;
-}
-
-
-.flair-Brown {
-    width: 20px;
-    height: 18px;
-    background-position: -35px -89px;
-}
-
-
-.flair-Holtby {
-    width: 21px;
-    height: 18px;
-    background-position: -65px -89px;
-}
-
-
-.flair-Carlson {
-    width: 21px;
-    height: 18px;
-    background-position: -96px -89px;
-}
-
-
-.flair-Oshie {
-    width: 20px;
-    height: 18px;
-    background-position: -127px -89px;
-}
-
-
-.flair-Beagle {
-    width: 21px;
-    height: 18px;
-    background-position: -5px -117px;
-}
-
-
-.flair-OBrien {
-    width: 20px;
-    height: 18px;
-    background-position: -36px -117px;
-}
-
-
-.flair-Schmidt {
-    width: 21px;
-    height: 18px;
-    background-position: -66px -117px;
-}
-
-
-.flair-Ovechkin {
-    width: 21px;
-    height: 18px;
-    background-position: -97px -117px;
-}
-
-
-.flair-Johansson {
-    width: 21px;
-    height: 18px;
-    background-position: -128px -117px;
-}
-
-
-.flair-Kuznetsov {
-    width: 21px;
-    height: 18px;
-    background-position: -5px -145px;
-}
-
-
-.flair-Orlov {
-    width: 21px;
-    height: 18px;
-    background-position: -36px -145px;
-}
-
-
-.flair-Locker {
-    width: 21px;
-    height: 18px;
-    background-position: -67px -145px;
-}
-
-
-.flair-JoeB {
-    width: 21px;
-    height: 18px;
-    background-position: -98px -145px;
-}
-
-
-.flair-announcer-mic {
-    width: 21px;
-    height: 18px;
-    background-position: -129px -145px;
-}
-
-
-.flair-announcer-suit {
-    width: 21px;
-    height: 18px;
-    background-position: -159px -5px;
-}
-
-
-.flair-caps-logo1 {
-    width: 21px;
-    height: 18px;
-    background-position: -158px -33px;
-}
-
-
-.flair-caps-logo2 {
-    width: 21px;
-    height: 18px;
-    background-position: -160px -61px;
-}
-
-
-.flair-Gartner {
-    width: 21px;
-    height: 18px;
-    background-position: -157px -89px;
-}
-
-
-.flair-Hunter {
-    width: 21px;
-    height: 18px;
-    background-position: -159px -117px;
-}
-
-
-.flair-Langway {
-    width: 21px;
-    height: 18px;
-    background-position: -160px -145px;
-}
-
-
-.flair-Labre {
-    width: 21px;
-    height: 18px;
-    background-position: -5px -173px;
-}
 
 
 /* ===============================================================================================================================
