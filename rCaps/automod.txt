@@ -45,3 +45,24 @@
  title (includes): ["[PHOTO]"]
  set_flair: ["Photo", ""]
 
+---
+
+# Only allow "no participation" links to other parts of reddit.
+url+body: ["https?://(www\\.)?reddit\\.com/r/", "https?://(www\\.)?reddit\\.com/comments/"]
+modifiers:
+    url+body: regex
+action: remove
+message: |
+    Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was automatically removed because you linked to reddit without using the "no-participation" (np.) domain.
+
+    Reddit links should be of the form "np.reddit.com". Please resubmit your {{kind}} with the "no-participation" domain added to it.
+
+
+url+body: ["https?://redd\\.it/"]
+modifiers:
+    url+body: regex
+action: remove
+message: |
+    Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was automatically removed because you linked to reddit without using the "no-participation" (np.) domain.
+
+    Reddit links should be of the form "np.redd.it". Please resubmit your {{kind}} with the "no-participation" domain added to it.
