@@ -2596,7 +2596,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .flair:before {
     margin-right: 3px;
     height: auto;
-    content: "- ";
     margin-left: 4px
 }
 .side .flair:before {
@@ -3503,7 +3502,7 @@ body .content .sitetable .link .title a:hover,
 /* --- Addon: Header Background Image --- */
 
 body:before {
-    height: 416px;
+    height: 281px;
     background: #DC143C url(%%headerimg%%) center no-repeat 33% 0
 }
 @media only screen and (min-width: 1921px) {
@@ -3514,32 +3513,32 @@ body:before {
 /* Add or subtract THE SAME AMOUNT ON EACH OF THESE */
 
 body>.content {
-    margin-top: 342px;
+    margin-top: 281px;
 }
 .side {
-    margin-top: 446px;
+    margin-top: 390px;
 }
 .search-page .side {
-    margin-top: 394px;
+    margin-top: 353px;
 }
 .comments-page .side {
-    margin-top: 558px;
+    margin-top: 497px;
 }
 .res .comments-page .side {
-    margin-top: 572px;
+    margin-top: 511px;
 }
 .comments-page .side .linkinfo {
-    margin-top: 246px;
+    margin-top: 185px;
 }
 #search,
 .search-page .morelink {
-    top: 342px;
+    top: 281px;
 }
 .morelink {
-    top: 394px;
+    top: 333px;
 }
 #header-bottom-left {
-    top: 278px;
+    top: 217px;
 }
 #header .tabmenu li a,
 .pagename a {
