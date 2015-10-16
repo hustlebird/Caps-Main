@@ -161,7 +161,7 @@
 }
 body {
     overflow-x: hidden;
-    background-color: #C8102E;
+    background-color: #eee;
     min-width: 820px
 }
 a {
@@ -319,7 +319,7 @@ a.random.choice {
 }
 #sr-header-area .dropdown.srdrop .selected:after {
     position: relative;
-    content: "?";
+    content: "▼";
     margin-left: 4px;
     font-size: 10px
 }
@@ -562,7 +562,7 @@ body:not(.loggedin) #header-bottom-right {
     margin: 10px 0;
     padding: 10px 0;
     color: #5B92FA;
-    content: "";
+    content: "CSS Theme via /r/Naut";
     text-transform: none;
     font-size: 16px;
     font-family: arial, sans-serif;
@@ -1056,7 +1056,7 @@ body:before {
     width: 100%;
     left: 0;
     right: 0;
-    background-color: #3A3D4D;
+    background-color: #cc0a2f;
     background-image: url(%%headerimg%%);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -2007,7 +2007,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     color: #4F8EF7
 }
 .commentarea .menuarea .dropdown.lightdrop .selected:after {
-    content: "?"
+    content: "▼"
 }
 .drop-choices.lightdrop {
     border: none;
@@ -3451,7 +3451,7 @@ body:before {
 .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed,
 .btn,
 button {
-    background-color: #0f2b59
+    background-color: #766a94
 }
 /* Hover color = 10% white overlay color */
 
@@ -3497,7 +3497,7 @@ body .content .sitetable .link .title a:hover,
 .side .titlebox .md h6 a,
 .link .entry .tagline a:hover,
 .comment .author:hover {
-    color: #041E42;
+    color: #ef4949;
 }
 /* --- End Addon --- */
 /* --- Addon: Header Background Image --- */
