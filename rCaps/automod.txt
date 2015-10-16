@@ -46,23 +46,9 @@
  set_flair: ["Photo", ""]
 
 ---
+    url+body (regex): ["(\\w{2}\\.)?(?<!np\\.)reddit\\.com/r/(?!subreddit)\\w+", "(?<!com)/r/(?!subreddit)\\w+/comments", "redd\\.it/\\w+"]
+    action: remove
+    message: |
+        Your {{kind}} has been automatically removed because you either used a redd.it shortlink, or you linked to a thread outside /r/{{subreddit}} without using the np subdomain for no-participation mode.
 
-# Only allow "no participation" links to other parts of reddit.
-url+body: ["https?://(www\\.)?reddit\\.com/r/", "https?://(www\\.)?reddit\\.com/comments/"]
-modifiers:
-    url+body: regex
-action: remove
-message: |
-    Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was automatically removed because you linked to reddit without using the "no-participation" (np.) domain.
-
-    Reddit links should be of the form "np.reddit.com". Please resubmit your {{kind}} with the "no-participation" domain added to it.
-
-
-url+body: ["https?://redd\\.it/"]
-modifiers:
-    url+body: regex
-action: remove
-message: |
-    Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was automatically removed because you linked to reddit without using the "no-participation" (np.) domain.
-
-    Reddit links should be of the form "np.redd.it". Please resubmit your {{kind}} with the "no-participation" domain added to it.
+        Please use full-length URLs only, and please use no-participation mode (np.reddit.com links) when linking to other subreddits.
