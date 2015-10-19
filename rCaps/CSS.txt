@@ -1,4 +1,4 @@
-/*Hide some stuff*/
+﻿/*Hide some stuff*/
 .sidebox.create {
     display: none
 }
@@ -954,7 +954,7 @@ div.titlebox span.number:after {
 .side .titlebox .md h1 {
     line-height: 18px;
     margin: .5em 0 0!important;
-    background-color: #0f2b59;
+    background-color: #766a94;
     color: white;
     padding: 5px;
     font-family: verdana,arial,sans-serif;
@@ -1061,7 +1061,7 @@ body:before {
     left: 0;
     right: 0;
     background-color: #cc0a2f;
-    background-image: url(%%headerimg%%);
+    background-image: url(%%header-pink%%);
     background-repeat: no-repeat;
     background-position: 50% 0;
     content: "";
@@ -2656,7 +2656,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%headerimg%%);
+    background-image: url(%%header-pink%%);
     background-position: 50% 0
 }
 .pinHeader-sub #header-bottom-left,
@@ -2677,7 +2677,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%headerimg%%);
+    background-image: url(%%header-pink%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)
 }
@@ -3432,7 +3432,7 @@ display:inline-block;
 /* --- Addon: Header Color (Primary Color) --- */
 
 body:before {
-    background-color: #383947
+    background-color: #766a94
 }
 /* --- End Addon --- */
 /* --- Addon: Button color (Secondary Color) --- */
@@ -3473,7 +3473,7 @@ button:hover,
 .side .titlebox .md h3 a:active,
 .btn:active,
 button:active {
-    background-color: #bd3b3b;
+    background-color: #766a94;
 }
 /* --- End Addon --- */
 /* --- Addon: Link Color (Tertiary Color) - This color should be either similiar to the primary color, 
@@ -3500,14 +3500,14 @@ body .content .sitetable .link .title a:hover,
 .side .titlebox .md h6 a,
 .link .entry .tagline a:hover,
 .comment .author:hover {
-    color: #ef4949;
+    color: #766a94;
 }
 /* --- End Addon --- */
 /* --- Addon: Header Background Image --- */
 
 body:before {
-    height: 282px;
-    background: #DC143C url(%%headerimg%%) center no-repeat 33% 0
+    height: 416px;
+    background: #DC143C url(%%header-pink%%) center no-repeat 33% 0
 }
 @media only screen and (min-width: 1921px) {
     body:before {
@@ -3517,32 +3517,32 @@ body:before {
 /* Add or subtract THE SAME AMOUNT ON EACH OF THESE */
 
 body>.content {
-    margin-top: 281px;
+    margin-top: 415px;
 }
 .side {
-    margin-top: 390px;
+    margin-top: 524px;
 }
 .search-page .side {
-    margin-top: 353px;
+    margin-top: 487px;
 }
 .comments-page .side {
     margin-top: 497px;
 }
 .res .comments-page .side {
-    margin-top: 511px;
+    margin-top: 631px;
 }
 .comments-page .side .linkinfo {
-    margin-top: 185px;
+    margin-top: 319px;
 }
 #search,
 .search-page .morelink {
-    top: 281px;
+    top: 415px;
 }
 .morelink {
-    top: 333px;
+    top: 467px;
 }
 #header-bottom-left {
-    top: 217px;
+    top: 351px;
 }
 #header .tabmenu li a,
 .pagename a {
@@ -3575,7 +3575,7 @@ body>.content {
     content: "Ovechkin & Niskanen";
     /* Caption */
     
-    background-color: #212121;
+    background-color: #766a94;
     /* Color behind caption */
 }
 /* END ADDON */
