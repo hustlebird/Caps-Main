@@ -1,4 +1,4 @@
-/*Hide some stuff*/
+﻿/*Hide some stuff*/
 .sidebox.create {
     display: none
 }
@@ -160,7 +160,7 @@
 }
 body {
     overflow-x: hidden;
-    background-color: #C8102E;
+    background-color: #eee;
     min-width: 820px
 }
 a {
@@ -318,7 +318,7 @@ a.random.choice {
 }
 #sr-header-area .dropdown.srdrop .selected:after {
     position: relative;
-    content: "?";
+    content: "▼";
     margin-left: 4px;
     font-size: 10px
 }
@@ -561,7 +561,7 @@ body:not(.loggedin) #header-bottom-right {
     margin: 10px 0;
     padding: 10px 0;
     color: #5B92FA;
-    content: "";
+    content: "CSS Theme via /r/Naut";
     text-transform: none;
     font-size: 16px;
     font-family: arial, sans-serif;
@@ -954,7 +954,7 @@ div.titlebox span.number:after {
 .side .titlebox .md h1 {
     line-height: 18px;
     margin: .5em 0 0!important;
-    background-color: #0f2b59;
+    background-color: #766a94;
     color: white;
     padding: 5px;
     font-family: verdana,arial,sans-serif;
@@ -1060,8 +1060,8 @@ body:before {
     width: 100%;
     left: 0;
     right: 0;
-    background-color: #3A3D4D;
-    background-image: url(%%headerimg%%);
+    background-color: #cc0a2f;
+    background-image: url(%%header-pink%%);
     background-repeat: no-repeat;
     background-position: 50% 0;
     content: "";
@@ -2011,7 +2011,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     color: #4F8EF7
 }
 .commentarea .menuarea .dropdown.lightdrop .selected:after {
-    content: "?"
+    content: "▼"
 }
 .drop-choices.lightdrop {
     border: none;
@@ -2656,7 +2656,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%headerimg%%);
+    background-image: url(%%header-pink%%);
     background-position: 50% 0
 }
 .pinHeader-sub #header-bottom-left,
@@ -2677,7 +2677,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%headerimg%%);
+    background-image: url(%%header-pink%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)
 }
@@ -3358,68 +3358,448 @@ background: url(%%spritesheet-jerseys%%);
 display:inline-block;
 }
 
-.flair-Williams { width: 42px; height: 35px; background-position: -5px -5px;}
-.flair-Backstrom { width: 42px; height: 35px; background-position: -57px -5px;}
-.flair-Niskanen { width: 42px; height: 35px; background-position: -109px -5px;}
-.flair-Laich { width: 42px; height: 35px; background-position: -161px -5px;}
-.flair-Chimera { width: 42px; height: 35px; background-position: -213px -5px;}
-.flair-Alzner { width: 42px; height: 35px; background-position: -265px -5px;}
-.flair-Grubauer { width: 42px; height: 35px; background-position: -317px -5px;}
-.flair-Chorney { width: 42px; height: 35px; background-position: -5px -50px;}
-.flair-Wilson { width: 42px; height: 35px; background-position: -57px -50px;}
-.flair-Orpik { width: 42px; height: 35px; background-position: -109px -50px;}
-.flair-Latta { width: 42px; height: 35px; background-position: -161px -50px;}
-.flair-Galiev { width: 42px; height: 35px; background-position: -213px -50px;}
-.flair-Collins { width: 42px; height: 35px; background-position: -265px -50px;}
-.flair-Burakovsky { width: 42px; height: 35px; background-position: -317px -50px;}
-.flair-Brown { width: 42px; height: 35px; background-position: -5px -95px;}
-.flair-Holtby { width: 42px; height: 35px; background-position: -57px -95px;}
-.flair-Carlson { width: 42px; height: 35px; background-position: -109px -95px;}
-.flair-Oshie { width: 42px; height: 35px; background-position: -161px -95px;}
-.flair-Ovechkin { width: 42px; height: 35px; background-position: -213px -95px;}
-.flair-Beagle { width: 42px; height: 35px; background-position: -265px -95px;}
-.flair-Schdmit { width: 42px; height: 35px; background-position: -317px -95px;}
-.flair-Orlov { width: 42px; height: 35px; background-position: -5px -140px;}
-.flair-Johansson { width: 42px; height: 35px; background-position: -57px -140px;}
-.flair-Kuznetsov { width: 42px; height: 35px; background-position: -109px -140px;}
-.flair-hedgehog { width: 24px; height: 24px; background-position: -317px -320px;}
-.flair-others-Bondra { width: 42px; height: 35px; background-position: -369px -5px;}
-.flair-others-Gartner { width: 42px; height: 35px; background-position: -369px -50px;}
-.flair-others-Hunter { width: 42px; height: 35px; background-position: -369px -95px;}
-.flair-others-Kolzig { width: 42px; height: 35px; background-position: -369px -140px;}
-.flair-others-Labre { width: 42px; height: 35px; background-position: -369px -185px;}
-.flair-others-Langway { width: 42px; height: 35px; background-position: -369px -230px;}
-.flair-front-washington-3rd { width: 42px; height: 35px; background-position: -161px -320px;}
-.flair-front-washington-home { width: 42px; height: 35px; background-position: -213px -320px;}
-.flair-front-anaheim { width: 42px; height: 35px; background-position: -161px -140px;}
-.flair-front-arizona { width: 42px; height: 35px; background-position: -213px -140px;}
-.flair-front-boston { width: 42px; height: 35px; background-position: -265px -140px;}
-.flair-front-buffalo { width: 42px; height: 35px; background-position: -317px -140px;}
-.flair-front-calgary { width: 42px; height: 35px; background-position: -5px -185px;}
-.flair-front-carolina { width: 42px; height: 35px; background-position: -57px -185px;}
-.flair-front-chicago { width: 42px; height: 35px; background-position: -109px -185px;}
-.flair-front-colorado { width: 42px; height: 35px; background-position: -161px -185px;}
-.flair-front-columbus { width: 42px; height: 35px; background-position: -213px -185px;}
-.flair-front-dallas { width: 42px; height: 35px; background-position: -265px -185px;}
-.flair-front-detroit { width: 42px; height: 35px; background-position: -317px -185px;}
-.flair-front-edmonton { width: 42px; height: 35px; background-position: -5px -230px;}
-.flair-front-florida { width: 42px; height: 35px; background-position: -57px -230px;}
-.flair-front-losangeles { width: 42px; height: 35px; background-position: -109px -230px;}
-.flair-front-minnesota { width: 42px; height: 35px; background-position: -161px -230px;}
-.flair-front-montreal { width: 42px; height: 35px; background-position: -213px -230px;}
-.flair-front-nashville { width: 42px; height: 35px; background-position: -265px -230px;}
-.flair-front-newjersey { width: 42px; height: 35px; background-position: -317px -230px;}
-.flair-front-nyi { width: 42px; height: 35px; background-position: -5px -275px;}
-.flair-front-nyr { width: 42px; height: 35px; background-position: -57px -275px;}
-.flair-front-ottawa { width: 42px; height: 35px; background-position: -109px -275px;}
-.flair-front-philadelphia { width: 42px; height: 35px; background-position: -161px -275px;}
-.flair-front-pittsburgh { width: 42px; height: 35px; background-position: -213px -275px;}
-.flair-front-sanjose { width: 42px; height: 35px; background-position: -265px -275px;}
-.flair-front-stlouis { width: 42px; height: 35px; background-position: -317px -275px;}
-.flair-front-tampabay { width: 42px; height: 35px; background-position: -5px -320px;}
-.flair-front-toronto { width: 42px; height: 35px; background-position: -57px -320px;}
-.flair-front-vancouver { width: 42px; height: 35px; background-position: -109px -320px;}
-.flair-front-winnipeg { width: 42px; height: 35px; background-position: -265px -320px;}
+
+.flair-14-Williams {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -5px;
+}
+
+
+.flair-19-Backstrom {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -5px;
+}
+
+
+.flair-2-Niskanen {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -5px;
+}
+
+
+.flair-21-Laich {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -5px;
+}
+
+
+.flair-25-Chimera {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -5px;
+}
+
+
+.flair-27-Alzner {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -5px;
+}
+
+
+.flair-31-Grubauer {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -5px;
+}
+
+
+.flair-4-Chorney {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -50px;
+}
+
+
+.flair-43-Wilson {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -50px;
+}
+
+
+.flair-44-Orpik {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -50px;
+}
+
+
+.flair-46-Latta {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -50px;
+}
+
+
+.flair-49-Galiev {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -50px;
+}
+
+
+.flair-53-Collins {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -50px;
+}
+
+
+.flair-65-Burakovsky {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -50px;
+}
+
+
+.flair-67-Brown {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -95px;
+}
+
+
+.flair-70-Holtby {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -95px;
+}
+
+
+.flair-74-Carlson {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -95px;
+}
+
+
+.flair-77-Oshie {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -95px;
+}
+
+
+.flair-8-Ovechkin {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -95px;
+}
+
+
+.flair-83-Beagle {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -95px;
+}
+
+
+.flair-88-Schdmit {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -95px;
+}
+
+
+.flair-9-Orlov {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -140px;
+}
+
+
+.flair-90-Johansson {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -140px;
+}
+
+
+.flair-92-Kuznetsov {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -140px;
+}
+
+
+.flair-HFC-Caps {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -140px;
+}
+
+
+.flair-front-anaheim {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -140px;
+}
+
+
+.flair-front-arizona {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -140px;
+}
+
+
+.flair-front-boston {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -140px;
+}
+
+
+.flair-front-buffalo {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -185px;
+}
+
+
+.flair-front-calgary {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -185px;
+}
+
+
+.flair-front-carolina {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -185px;
+}
+
+
+.flair-front-chicago {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -185px;
+}
+
+
+.flair-front-colorado {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -185px;
+}
+
+
+.flair-front-columbus {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -185px;
+}
+
+
+.flair-front-dallas {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -185px;
+}
+
+
+.flair-front-detroit {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -230px;
+}
+
+
+.flair-front-edmonton {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -230px;
+}
+
+
+.flair-front-florida {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -230px;
+}
+
+
+.flair-front-losangeles {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -230px;
+}
+
+
+.flair-front-minnesota {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -230px;
+}
+
+
+.flair-front-montreal {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -230px;
+}
+
+
+.flair-front-nashville {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -230px;
+}
+
+
+.flair-front-newjersey {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -275px;
+}
+
+
+.flair-front-nyi {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -275px;
+}
+
+
+.flair-front-nyr {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -275px;
+}
+
+
+.flair-front-ottawa {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -275px;
+}
+
+
+.flair-front-philadelphia {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -275px;
+}
+
+
+.flair-front-pittsburgh {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -275px;
+}
+
+
+.flair-front-sanjose {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -275px;
+}
+
+
+.flair-front-stlouis {
+    width: 42px;
+    height: 35px;
+    background-position: -5px -320px;
+}
+
+
+.flair-front-tampabay {
+    width: 42px;
+    height: 35px;
+    background-position: -57px -320px;
+}
+
+
+.flair-front-toronto {
+    width: 42px;
+    height: 35px;
+    background-position: -109px -320px;
+}
+
+
+.flair-front-vancouver {
+    width: 42px;
+    height: 35px;
+    background-position: -161px -320px;
+}
+
+
+.flair-front-washington-3rd {
+    width: 42px;
+    height: 35px;
+    background-position: -213px -320px;
+}
+
+
+.flair-front-washington-home {
+    width: 42px;
+    height: 35px;
+    background-position: -265px -320px;
+}
+
+
+.flair-front-winnipeg {
+    width: 42px;
+    height: 35px;
+    background-position: -317px -320px;
+}
+
+
+.flair-hedgehog {
+    width: 24px;
+    height: 24px;
+    background-position: -369px -5px;
+}
+
+
+.flair-others-Bondra {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -39px;
+}
+
+
+.flair-others-Gartner {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -84px;
+}
+
+
+.flair-others-Hunter {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -129px;
+}
+
+
+.flair-others-Kolzig {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -174px;
+}
+
+
+.flair-others-Labre {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -219px;
+}
+
+
+.flair-others-Langway {
+    width: 42px;
+    height: 35px;
+    background-position: -369px -264px;
+}
+
+
 
 
 
@@ -3432,7 +3812,7 @@ display:inline-block;
 /* --- Addon: Header Color (Primary Color) --- */
 
 body:before {
-    background-color: #383947
+    background-color: #766a94
 }
 /* --- End Addon --- */
 /* --- Addon: Button color (Secondary Color) --- */
@@ -3454,7 +3834,7 @@ body:before {
 .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed,
 .btn,
 button {
-    background-color: #0f2b59
+    background-color: #766a94
 }
 /* Hover color = 10% white overlay color */
 
@@ -3473,7 +3853,7 @@ button:hover,
 .side .titlebox .md h3 a:active,
 .btn:active,
 button:active {
-    background-color: #bd3b3b;
+    background-color: #766a94;
 }
 /* --- End Addon --- */
 /* --- Addon: Link Color (Tertiary Color) - This color should be either similiar to the primary color, 
@@ -3500,14 +3880,14 @@ body .content .sitetable .link .title a:hover,
 .side .titlebox .md h6 a,
 .link .entry .tagline a:hover,
 .comment .author:hover {
-    color: #041E42;
+    color: #766a94;
 }
 /* --- End Addon --- */
 /* --- Addon: Header Background Image --- */
 
 body:before {
     height: 282px;
-    background: #DC143C url(%%headerimg%%) center no-repeat 33% 0
+    background: #DC143C url(%%header-pink%%) center no-repeat 33% 0
 }
 @media only screen and (min-width: 1921px) {
     body:before {
@@ -3575,7 +3955,7 @@ body>.content {
     content: "Ovechkin & Niskanen";
     /* Caption */
     
-    background-color: #212121;
+    background-color: #766a94;
     /* Color behind caption */
 }
 /* END ADDON */
