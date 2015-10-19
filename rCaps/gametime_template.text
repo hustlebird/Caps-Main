@@ -1,0 +1,85 @@
+Game Thread {date:mmddyyyy}: {away:long} at {home:long} @ {gametime:est}
+Lucky Guess {date:mmddyyyy}: {away:short} at {home:short} @ {gametime:est}
+
+|GAME DAY: {date:dayofweek} {date:mmddyyyy}|
+|:--:|
+|{home:arena} - {home:arenaplace}|
+|#{away:stats:rank} {away:short} ({away:stats:w}-{away:stats:l}-{away:stats:ot}) @ #{home:stats:rank} {home:short} ({home:stats:w}-{home:stats:l}-{home:stats:ot})|
+
+|PST|MST|CST|EST|AST|
+:--:|:--:|:--:|:--:|:--:|
+|{gametime:pst}|{gametime:mst}|{gametime:cst}|{gametime:est}|{gametime:ast}|
+
+|||
+:--:|:--:
+| TV | {game:broadcast} |
+|Online| [NHL Streams](http://www.reddit.com/r/nhlstreams) |
+| VLC Streams | [Check here 15 minutes before faceoff](http://dnalloheoj.com/nhl/log.txt)  |
+| VLC | [Instructions](http://www.reddit.com/r/hockey/wiki/vlc) |
+| Listen | [{home:short} Radio](http://{home:short}.nhl.com/club/RadioPlayer.htm?id=2012020568), [{away:short} Radio](http://{away:short}.nhl.com/club/RadioPlayer.htm?id=2012020568)|
+
+---
+
+### Team Stats
+
+---
+{league:rankings:Rank,redditicon,W,L,OT,P,PP%,PK%,FO%}
+
+
+---
+
+### Season Series
+
+---
+{schedule:versus:Date,Home,Away,Network/Result:past,icons}
+
+## {home:short} Next Game
+{schedule:home:future,limit=1}
+
+## {away:short} Next Game
+{schedule:away:future,limit=1}
+
+---
+
+### Team Leaders
+
+---
+{away:players:redditicon,Num,Name,Pos,GP,G,A,P:limit=3}
+|--|--|--|--|--|--|--|--|
+{home:players:redditicon,Num,Name,Pos,GP,G,A,P:limit=3,noheader}
+
+---
+
+### Goalies
+
+---
+{away:goalies:redditicon,Num,Name,W,L,SO,SV%:limit=2}
+|--|--|--|--|--|--|--|
+{home:goalies:redditicon,Num,Name,W,L,SO,SV%:noheader,limit=2}
+
+---
+
+### Projected Lineups
+
+---
+| | Left | Center | Right | | Left | Center | Right |
+:--: | :--: | :--: | :--: | :--: | :--: | :--: | :--:
+|{away:redditicon}| {away:oleft1} | {away:ocenter1} | {away:oright1} |{home:redditicon}| {home:oleft1} | {home:ocenter1} | {home:oright1} |
+|{away:redditicon}| {away:oleft2} | {away:ocenter2} | {away:oright2} |{home:redditicon}| {home:oleft2} | {home:ocenter2} | {home:oright2} |
+|{away:redditicon}| {away:oleft3} | {away:ocenter3} | {away:oright3} |{home:redditicon}| {home:oleft3} | {home:ocenter3} | {home:oright3} |
+|{away:redditicon}| {away:oleft4} | {away:ocenter4} | {away:oright4} |{home:redditicon}| {home:oleft4} | {home:ocenter4} | {home:oright4} |
+
+| | Left D | Right D | | Left D | Right D |
+:--: | :--: | :--: | :--: | :--: | :--: 
+|{away:redditicon}| {away:dleft1} | {away:dright1} |{home:redditicon}| {home:dleft1} | {home:dright1} |
+|{away:redditicon}| {away:dleft2} | {away:dright2} |{home:redditicon}| {home:dleft2} | {home:dright2} |
+|{away:redditicon}| {away:dleft3} | {away:dright3} |{home:redditicon}| {home:dleft3} | {home:dright3} |
+
+|| Goaltenders || Goaltenders |
+:--: | :--: | :--: | :--:
+|{away:redditicon}| {away:goalie1} |{home:redditicon}| {home:goalie1} |
+|{away:redditicon}| {away:goalie2} |{home:redditicon}| {home:goalie2} |
+
+---
+
+**Lets have a good discussion and a good game. Good luck to both teams!**

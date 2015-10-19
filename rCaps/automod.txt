@@ -45,3 +45,10 @@
  title (includes): ["[PHOTO]"]
  set_flair: ["Photo", ""]
 
+---
+    url+body (regex): ["(\\w{2}\\.)?(?<!np\\.)reddit\\.com/r/(?!subreddit)\\w+", "(?<!com)/r/(?!subreddit)\\w+/comments", "redd\\.it/\\w+"]
+    action: remove
+    message: |
+        Your {{kind}} has been automatically removed because you either used a redd.it shortlink, or you linked to a thread outside /r/{{subreddit}} without using the np subdomain for no-participation mode.
+
+        Please use full-length URLs only, and please use no-participation mode (np.reddit.com links) when linking to other subreddits.
